@@ -1,0 +1,19 @@
+[package]
+name    = "phone-mnemonic"
+version = "1.0.0"
+
+authors = ["moparisthebest <admin@moparisthebest.com>"]
+license = "AGPL-3.0"
+
+description = "Convert phone numbers to mnemonic and back"
+repository  = "https://code.moparisthebest.com/moparisthebest/phone-mnemonic"
+keywords    = ["phone", "number"]
+
+edition = "2018"
+
+include = [
+    "src/**",
+    "Cargo.toml",
+    "license.md",
+    "readme.md",
+]
