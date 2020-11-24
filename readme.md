@@ -1,6 +1,8 @@
 phone-mnemonic
 --------------
 
+[![Build Status](https://ci.moparisthe.best/job/moparisthebest/job/phone-mnemonic/job/master/badge/icon%3Fstyle=plastic)](https://ci.moparisthe.best/job/moparisthebest/job/phone-mnemonic/job/master/)
+
 ```
 $ phone-mnemonic -h
 usage: phone-mnemonic [options...]
@@ -18,3 +20,5 @@ Examples:
   phone-mnemonic -r -o < coolnums.txt > nums_to_get.txt;  reverse but keep original into a file
                                                           for easy lookup/number finding
 ```
+
+Additionally a script in jmp/jmp.sh will download all available numbers in the USA that [jmp.chat](https://jmp.chat) has available, combined with phone-mnemonic you can easily grep the phone number of your dreams.
